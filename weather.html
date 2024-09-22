@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather</title>
+</head>
+<body>
+    <hr>
+    
+
+
+ <style>
+    *{
+        margin: 0;
+        padding: 0;
+       
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 20vh;
+        
+    }
+   
+    .box ul{
+        position: relative;
+        
+
+
+
+    }
+    .box ul li
+    {
+        list-style: none;
+        padding: 10px;
+        width:100%;
+        
+        box-shadow: coral;
+        transition: transform 0.5s;
+        text-decoration: black;
+    }
+    .box ul li :hover
+    {
+        transform: scale(1.1);
+        z-index: 100;
+        background: cyan;
+        box-shadow: 0 5px 25px rgba(198, 225, 64, 0);
+        color: #0b0a0a;
+    }
+    .box ul li span
+    {
+        width: 170px;
+        height: 50px;
+        text-align: center;
+        line-height: 20px;
+       
+        display: inline-block;
+        border-radius: 40%;
+        
+    }
+   
+    
+    h4 {
+        text-align: center;
+
+    }
+    hr{
+        height: 1px;
+        color: #0b0a0a;
+        background-color: #0b0a0a;
+        
+    }
+
+ </style>
+ <div class="box"><hr>
+    <h4 >Dummy Weather Data</h4>
+ <ul>
+    
+    <li>  <span>🌦 Currently <br> 21° in Tokyo </span></li>
+    <li>  <span>🌧Tomorrow <br>10°/22° </span></li>
+    <li>  <span>🌦Saturday <br> 15°/17°</span></li>
+    <li>  <span>🌝Sunday <br>25°/28°</span></li>
+        
+        </ul>
+
+         <button>
+    CHANGE CITY
+    </button>
+    <H4>Coded by Serafina</H4> <hr>
+</div>
+
+
+<style>
+    button{
+        display: block;
+        margin: auto;
+        background-color: blue;
+        color: azure;
+        border-radius: 7px;
+        border-color: chocolate;
+        font-style: italic;
+        font-size: small;
+        size: 10px;
+    }
+
+    </style>
+</body>
+</html>
